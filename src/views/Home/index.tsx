@@ -6,7 +6,7 @@ import { NavBar } from '../../components/NavBar'
 import { Link } from 'react-router-dom'
 
 class Home extends React.Component {
-    
+
     render() : JSX.Element {
         return(
             <main>
