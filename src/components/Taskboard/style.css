@@ -1,0 +1,53 @@
+.taskboard {
+    width: 300px;
+    height: 100%;
+    background-color: #ebecf0;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.taskboard-name {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.ellipsis-color {
+    color:#5e6c84;
+}
+
+.tasks-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.add-new-task {
+    width: 47%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    color: #5e6c84;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.options-popup-container {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+@media (max-width: 640px) {
+    .taskboard {
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,13 @@
+.input {
+    background-color: #f4f4f4;
+    border: transparent;
+    color: #172B4D;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    height: 50px;
+    width: 100%;
+    font-size: 15px;
+    border-radius: 5px;
+    padding-left: 10px;
+    outline: none;
+}

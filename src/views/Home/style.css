@@ -1,0 +1,247 @@
+.blue-section {
+    width: 100%;
+    height: 70vh;
+    background-color: #3A80DE;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description-container {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.description {
+    width: 40%;
+}
+
+.description h1 {
+    font-size: 80px;
+}
+
+.description p {
+    font-size: 40px;
+}
+
+.section-one {
+    background-color: #eeeeff;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.section-one-image {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-one-description {
+    color: #172B4D;
+    width: 40%;
+    font-size: 40px;
+}
+
+.section-one-description p {
+    font-size: 30px;
+}
+
+.section-two {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.section-two-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    color: #172b4d;
+}
+
+.section-two-elements {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+}
+
+.section-two-elements img {
+    height: 80px;
+}
+
+.section-two-elements p {
+    font-size: 20px;
+}
+
+.section-two-description {
+    color: #172b4d;
+    font-size: 40px;
+    width: 40%;
+    text-align: center;
+}
+
+.section-two-description p {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.section-three {
+    color: #172b4d;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1332px 393px;
+}
+
+.section-three-bg {
+    background-image: url(../../images/assets/trellians-2x-2.png);
+}
+
+.section-three-description {
+    width: 28%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-three-description h1 {
+    font-size: 40px;
+}
+
+.section-three-description p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.section-three-description a {
+    margin-top: 20px;
+}
+
+.section-three-description .sign-up-link {
+    background-color: lightgreen;
+    width: 60%;   
+}
+.sign-up-link {
+    display: block;
+    height: 40px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #3A80DE;
+}
+.footer {
+    width: 100%;
+    text-align: center;
+    color: #172b4d;
+    font-family: 'Pacifico', sans-serif;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 640px) {
+
+    .description-container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+        margin-top: 40px;
+    }
+
+    .description {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .description h1 {
+        font-size: 30px;
+    }
+
+    .description p {
+        font-size: 20px;
+    }
+
+    .description-container img {
+        height: 250px;
+    }
+
+    .section-one {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    .section-one-image img {
+        height: 250px;
+    }
+
+    .section-one-description {
+        width: 80%;
+    }
+
+    .section-one-description h1 {
+        font-size: 35px;
+    }
+
+    .section-one-description p {
+        font-size: 25px;
+    }
+
+    .section-two-description {
+        width: 70%;
+    }
+
+    .section-two-description h1 {
+        font-size: 35px;
+    }
+
+    .section-two-description p {
+        font-size: 25px;
+    }
+
+    .section-two-elements {
+        width: 200px;
+        height: 200px;
+    }
+
+    .section-two-elements img {
+        height: 50px;
+    }
+
+    .section-two-elements h1 {
+        font-size: 18px;
+    }
+
+    .section-two-elements p {
+        font-size: 13px;
+    }
+
+    .section-three-description {
+        width: 90%;
+    }
+}

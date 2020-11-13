@@ -1,0 +1,55 @@
+.style-one {
+    border: none;
+    background-color: #3a80de;
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    width: 80%;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.style-two {
+    width: 90px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+}
+
+.style-two-blue {
+    background-color: #cee5f9;
+    color: #1e88e5;
+}
+
+.style-two-red {
+    background-color: #f7a3c9;
+    color: #c51162;
+}
+
+.style-three {
+    width: 110px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 6px;
+    font-family: 'Open sans';
+    font-weight: bold;
+}
+
+.style-three-blue {
+    border: 2px solid #3a80de;
+    color: #3a80de;
+}
+
+.style-three-red {
+    border: 2px solid #c51172;
+    color: #c51172;
+}
+
+.disabled {
+    background-color: gray;
+    opacity: 0.5;
+}

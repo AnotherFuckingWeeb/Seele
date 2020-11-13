@@ -1,0 +1,30 @@
+.message-modal {
+    width: 500px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.message-modal-response-sucess {
+    background-color: lightgreen;
+    color: white;
+}
+
+.message-modal-response-error {
+    background-color: #ff5148;
+    color: white;
+}
+
+.message-modal-response-warning {
+    background-color: #fdfd96;
+    color: #172b4d;
+}
+
+@media (max-width: 640px) {
+    .message-modal {
+        width: 400px;
+    }
+}

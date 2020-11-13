@@ -1,0 +1,118 @@
+.project-settings-container {
+    height: 100vh;
+    display: flex;
+}
+
+.project-settings-project-container {
+    width: 20%;
+    height: 100vh;
+    background-color: #3a80de;
+    overflow-y: auto;
+}
+
+.project-settings-label {
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.project-settings-projects {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.project-settings-project-edit-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-settings-project-edit-card {
+    width: 600px;
+    height: 300px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 3px 3px 5px 6px #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.project-settings-project-title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-settings-edit-logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #3a80de;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-settings-edit-project-input-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.project-settings-buttons-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-settings-buttons-reset-delete-container {
+    width: 43%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 640px) {
+    .project-settings-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .project-settings-project-container {
+        width: 100%;
+        height: 200px;
+        overflow-x: auto;
+    }
+
+    .project-settings-label {
+        display: none;
+    }
+
+    .project-settings-projects {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-top: 30px;
+    }
+
+    .project-settings-project-edit-card {
+        width: 500px;
+    }
+
+    .project-settings-buttons-reset-delete-container {
+        width: 50%;
+    }
+}
+

@@ -1,0 +1,61 @@
+.navbar {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #0079bf;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.navbar-logo {
+    font-family: 'Pacifico';
+    color: white;
+    font-weight: lighter;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.navbar-links {
+    width: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar-login-link {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar-sign-up-link {
+    background-color: white;
+    display: block;
+    width: 40%;
+    height: 40px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #3A80DE;
+}
+
+@media (max-width: 640px) {
+    .navbar-logo {
+        font-size: 30px;
+    }
+
+    .navbar-links {
+        width: 50%;
+        justify-content: space-around;
+    }
+
+    .navbar-login-link {
+        font-size: 18px;
+    }
+}

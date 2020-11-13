@@ -1,0 +1,11 @@
+.show-add-new-task-form-button {
+    width: 47%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    color: #5e6c84;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+}

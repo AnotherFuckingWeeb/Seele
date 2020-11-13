@@ -1,0 +1,33 @@
+.option-popup-modal {
+    width: 100px;
+    height: 80px;
+    background-color: #ebecf0;
+    border: 2px solid #3a80de;
+    border-radius: 6px;
+    z-index: 2;
+    position: absolute;
+    top: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.option {
+    width: 90%;
+    height: 30px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3px 0 3px;
+    cursor: pointer;
+}
+
+.update {
+    color: #1e88e5;
+}
+
+.delete {
+    color: #c51162;
+}
